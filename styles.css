@@ -13,7 +13,6 @@
 }
 
 .price-card {
-  overflow: hidden;
   background-color: #334247;
   position: relative;
   width: 380px;
@@ -95,12 +94,12 @@
   position: absolute;
   background-color: #dc3f45;
   width: 147px;
+  line-height: 25px;
   text-align: center;
-  right: -32px;
-  top: 36px;
+  right: -30px;
+  top: 30px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 17px;
   transform: rotate(45deg);
 }
 

@@ -12,7 +12,7 @@
 }
 
 .price-card {
-  overflow: hidden;
+  // overflow: hidden;
   background-color: $color-grey;
   position: relative;
   width: 380px;
@@ -95,14 +95,14 @@
     position: absolute;
     background-color: $text-color-red;
     width: 147px;
+    line-height: 25px;
     text-align: center;
 
-    right: -32px;
-    top: 36px;
+    right: -30px;
+    top: 30px;
 
     font-weight: 700;
     font-size: 14px;
-    line-height: 17px;
     transform: rotate(45deg);
   }
 }
