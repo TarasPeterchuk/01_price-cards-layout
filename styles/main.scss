@@ -13,6 +13,7 @@
 
 .price-card {
   background-color: $color-grey;
+  position: relative;
   width: 380px;
   margin-left: 18px;
   &:first-child {
@@ -88,6 +89,22 @@
     margin: auto;
     margin-top: 39px;
     margin-bottom: 40px;
+  }
+  &__popular {
+    position: absolute;
+    background-color: $text-color-red;
+    width: 147px;
+    text-align: center;
+    line-height: 17px;
+
+    right: -32px;
+    top: 36px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    transform: rotate(45deg);
   }
 }
 

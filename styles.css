@@ -14,6 +14,7 @@
 
 .price-card {
   background-color: #334247;
+  position: relative;
   width: 380px;
   margin-left: 18px;
 }
@@ -88,6 +89,19 @@
   margin: auto;
   margin-top: 39px;
   margin-bottom: 40px;
+}
+.price-card__popular {
+  position: absolute;
+  background-color: #dc3f45;
+  width: 147px;
+  text-align: center;
+  line-height: 17px;
+  right: -32px;
+  top: 36px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  transform: rotate(45deg);
 }
 
 .green-background {
