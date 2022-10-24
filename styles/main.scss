@@ -24,7 +24,8 @@
     height: 130px;
     margin: 0;
     padding-top: 33px;
-    padding-bottom: 33px;
+    // padding-bottom: 33px;
+    padding-bottom: 38px;
     font-size: 20px;
     line-height: 24px;
     font-weight: 300;
@@ -58,9 +59,7 @@
   &__option {
     height: 50px;
     display: flex;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 18px;
+
     padding-left: 22px;
     &:nth-child(even) {
       background-color: $color-grey;
@@ -78,6 +77,9 @@
   }
   &__option-item-text {
     margin-left: 22px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
   }
   &__order-btn {
     border-radius: 20px;
