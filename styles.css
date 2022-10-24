@@ -13,6 +13,7 @@
 }
 
 .price-card {
+  overflow: hidden;
   background-color: #334247;
   position: relative;
   width: 380px;
