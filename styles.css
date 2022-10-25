@@ -1,10 +1,10 @@
 .price-cards {
-  width: 1440px;
-  height: 1000px;
-  background-color: #141b1c;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 1440px;
+  height: 1000px;
+  background-color: #141b1c;
 }
 
 .price-card {
@@ -46,9 +46,9 @@
   line-height: 18px;
 }
 .price-card__options-list {
-  list-style-type: none;
   padding: 0;
   margin: 0;
+  list-style-type: none;
 }
 .price-card__option {
   display: flex;

@@ -1,19 +1,11 @@
-// .page {
-//   width: 1440px;
-//   height: 1000px;
-//   background-color: $color-blue-dark;
-// }
 .price-cards {
-  width: 1440px;
-  height: 1000px;
-  background-color: $color-blue-dark;
-  // height: 100%;
-  // width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 1440px;
+  height: 1000px;
+  background-color: $color-blue-dark;
 }
-
 .price-card {
   position: relative;
   width: 380px;
@@ -52,9 +44,9 @@
     line-height: 18px;
   }
   &__options-list {
-    list-style-type: none;
     padding: 0;
     margin: 0;
+    list-style-type: none;
   }
   &__option {
     display: flex;
