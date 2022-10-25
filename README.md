@@ -1,31 +1,17 @@
-# Project Name
+# Price cards layout
 
-TODO: Write a project description
+### [Site link](https://github.com/TarasPeterchuk/01_price-cards-layout)
 
-## Installation
+Layout only for desktop versions
 
-TODO: Describe the installation process
+### The tech stack is:
 
-## Usage
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [Flexbox](https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout)
+- [Sass (Scss)](https://sass-lang.com/)
+- [BEM methodology](https://en.bem.info/methodology/)
 
-TODO: Write usage instructions
+### Author
 
-## Contributing
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
-## History
-
-TODO: Write history
-
-## Credits
-
-TODO: Write credits
-
-## License
-
-TODO: Write license
+- Taras Peterchuk
