@@ -1,30 +1,30 @@
-.page {
+// .page {
+//   width: 1440px;
+//   height: 1000px;
+//   background-color: $color-blue-dark;
+// }
+.price-cards {
   width: 1440px;
   height: 1000px;
   background-color: $color-blue-dark;
-}
-.price-cards {
-  height: 100%;
-  width: 100%;
+  // height: 100%;
+  // width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .price-card {
-  overflow: hidden;
-  background-color: $color-grey;
   position: relative;
   width: 380px;
   margin-left: 18px;
+  overflow: hidden;
+  background-color: $color-grey;
   &:first-child {
     margin-left: 0px;
   }
   &__title {
-    // height: 130px;
     margin: 0;
-    // padding-top: 33px;
-    // padding-bottom: 33px;
     margin-bottom: 33px;
     margin-top: 33px;
     font-size: 20px;
@@ -38,19 +38,18 @@
     }
   }
   &__price {
+    display: block;
+    text-align: center;
     font-weight: 700;
     font-size: 55px;
-    text-align: center;
-    display: block;
     line-height: 105px;
   }
   &__description {
     margin: 40px 26px;
-
+    text-align: center;
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
-    text-align: center;
   }
   &__options-list {
     list-style-type: none;
@@ -58,9 +57,8 @@
     margin: 0;
   }
   &__option {
-    height: 50px;
     display: flex;
-
+    height: 50px;
     padding-left: 22px;
     &:nth-child(even) {
       background-color: $color-grey;
@@ -70,10 +68,9 @@
     }
   }
   &__option-check {
+    display: block;
     width: 15px;
     height: 13px;
-    display: block;
-
     margin: auto 0;
   }
   &__option-item-text {
@@ -83,33 +80,30 @@
     line-height: 18px;
   }
   &__order-btn {
-    border-radius: 20px;
-    border: none;
-    color: $text-color-white;
-    line-height: 40px;
-    width: 154px;
-    padding: 0;
     display: block;
     margin: auto;
     margin-top: 39px;
     margin-bottom: 40px;
+    width: 154px;
+    padding: 0;
+    border-radius: 20px;
+    border: none;
+    color: $text-color-white;
+    line-height: 40px;
   }
   &__popular {
     position: absolute;
-    background-color: $text-color-red;
     width: 147px;
-    line-height: 25px;
-    text-align: center;
-
     right: -30px;
     top: 30px;
-
+    transform: rotate(45deg);
+    background-color: $text-color-red;
+    line-height: 25px;
+    text-align: center;
     font-weight: 700;
     font-size: 14px;
-    transform: rotate(45deg);
   }
 }
-
 .green-background {
   background-color: $color-green;
 }
@@ -119,7 +113,6 @@
 .orange-background {
   background-color: $color-orange;
 }
-
 .check-green {
   background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
 }
