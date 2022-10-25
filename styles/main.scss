@@ -97,24 +97,24 @@
   }
 }
 .background {
-  &-green {
+  &_green {
     background-color: $color-green;
   }
-  &-blue {
+  &_blue {
     background-color: $color-blue;
   }
-  &-orange {
+  &_orange {
     background-color: $color-orange;
   }
 }
 .check {
-  &-green {
+  &_green {
     background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
   }
-  &-blue {
+  &_blue {
     background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
   }
-  &-orange {
+  &_orange {
     background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
   }
 }
