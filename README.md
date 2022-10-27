@@ -1,6 +1,6 @@
 # Price cards layout
 
-### [Site link](https://github.com/TarasPeterchuk/01_price-cards-layout)
+### [Site link](https://taraspeterchuk.github.io/01_price-cards-layout/)
 
 Layout only for desktop versions
 
