@@ -19,17 +19,19 @@
 }
 .price-card__title {
   margin: 0;
-  margin-bottom: 33px;
   margin-top: 33px;
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
+  text-align: center;
+}
+.price-card__subtitle {
+  margin: 0;
+  margin-bottom: 33px;
   font-size: 20px;
   line-height: 24px;
   font-weight: 300;
   text-align: center;
-}
-.price-card__title:first-line {
-  font-size: 35px;
-  line-height: 43px;
-  font-weight: 700;
 }
 .price-card__price {
   display: block;
@@ -133,6 +135,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-color: #f2f2f2;
 }
 
 /*# sourceMappingURL=styles.css.map */
