@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1440px;
-  height: 1000px;
+  width: 100vw;
+  height: 100vh;
   background-color: $color-blue-dark;
 }
 .price-card {
@@ -32,7 +32,6 @@
     text-align: center;
   }
   &__price {
-    display: block;
     text-align: center;
     font-weight: 700;
     font-size: 55px;
@@ -52,8 +51,8 @@
   }
   &__option {
     display: flex;
-    height: 50px;
-    padding-left: 22px;
+    line-height: 50px;
+
     &:nth-child(even) {
       background-color: $color-grey;
     }
@@ -61,17 +60,12 @@
       background-color: $color-grey-dark;
     }
   }
+
   &__option-check {
     display: block;
     width: 15px;
     height: 13px;
-    margin: auto 0;
-  }
-  &__option-item-text {
-    margin-left: 22px;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 18px;
+    margin: auto 22px;
   }
   &__order-btn {
     display: block;
