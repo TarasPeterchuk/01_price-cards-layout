@@ -28,20 +28,21 @@
   }
   &__subtitle {
     margin: 0;
-    margin-bottom: 33px;
     font-size: 20px;
     line-height: 24px;
     font-weight: 300;
     text-align: center;
   }
   &__price {
+    margin: 0;
+    margin-top: 33px;
     text-align: center;
     font-weight: 700;
     font-size: 55px;
     line-height: 105px;
   }
   &__description {
-    margin: 40px 26px;
+    margin: 40px 26px 0 26px;
     text-align: center;
     font-weight: 300;
     font-size: 15px;
@@ -50,6 +51,7 @@
   &__options-list {
     padding: 0;
     margin: 0;
+    margin-top: 40px;
     list-style-type: none;
   }
   &__option {
