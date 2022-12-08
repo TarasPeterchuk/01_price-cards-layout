@@ -56,6 +56,8 @@
 .price-card__option {
   display: flex;
   line-height: 50px;
+  font-size: 15px;
+  font-weight: 300;
 }
 .price-card__option:nth-child(even) {
   background-color: #334247;
